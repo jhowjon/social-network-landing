@@ -446,3 +446,44 @@ img {
 .achivement__button-arrow {
   width: 16px;
 }
+
+.text-menu {
+  width: 441px;
+  margin-top: 173px;
+  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-title {
+  width: 441px;
+  color: #4a4a56;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  transition: 100ms ease all;
+}
+
+.text-title:hover {
+  color: #217bf4;
+}
+
+.text {
+  width: 441px;
+  margin-top: 10px;
+  color: #0a093d;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.text-description {
+  margin-top: 20px;
+  color: #656464;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}
