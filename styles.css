@@ -305,15 +305,34 @@ img {
 }
 
 .achievement__card-people {
-  margin-top: 40px;
-  width: 202px;
+  margin-top: 32px;
+  width: 272px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .achievement__card-people-image {
-  width: 70px;
+  width: 46px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  box-shadow: -5px 4px 14px rgba(151, 151, 151, 0.28);
+  position: relative;
+  top: 0;
+  transition: 100ms ease all;
+}
+
+.achievement__card-people-image:hover {
+  top: -5px;
+}
+
+.achievement_image-people3 {
+  position: relative;
+  left: -20px;
+}
+
+.achievement_image-people2 {
+  position: relative;
+  left: -10px;
 }
 
 .achievement__card-people-text {
@@ -342,10 +361,15 @@ img {
 
 .achievement__link {
   margin-top: 40px;
-  color: #217bf4;
+  color: #4a4a56;
   font-family: "Inter";
   font-size: 16px;
   font-weight: 500;
+  transition: 500ms ease all;
+}
+
+.achievement__link:hover {
+  color: #217bf4;
 }
 
 .achievement__Link-image {
@@ -377,6 +401,28 @@ img {
   font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
+}
+
+.achievement__image-git {
+  width: 46px;
+  border-radius: 50px;
+  border: 5px solid #f65960;
+  background-color: #f65960;
+  box-shadow: -5px 4px 14px rgba(151, 151, 151, 0.28);
+  transition: 100ms ease all;
+  position: relative;
+  top: 0px;
+}
+
+.achievement__image-git:hover {
+  top: -5px;
+}
+
+.achievement__card-git {
+  margin-top: 32px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 .achivement__button {
