@@ -639,6 +639,10 @@ img {
   padding-bottom: 30px;
   border-radius: 14px;
   background: #fff;
+  transition: 300ms ease all;
+}
+
+.button__card:hover {
   box-shadow: 0px 34px 68px 0px rgba(116, 115, 128, 0.1);
 }
 
@@ -663,4 +667,63 @@ img {
   font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
+}
+
+.shape {
+  padding-top: 122px;
+  padding-bottom: 122px;
+  margin-bottom: 130px;
+  background-color: #e5f0fd;
+  background-image: url("./images/mobile.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.store {
+  width: 1145px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.store__text {
+  width: 30%;
+}
+
+.store__title {
+  color: #217bf4;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.store__text-principle {
+  margin-top: 10px;
+  color: #0a093d;
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.store__description {
+  margin-top: 18px;
+  color: #656464;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.store__content-image {
+  margin-top: 36px;
+  display: flex;
+  gap: 20px;
+}
+
+.store__image {
+  width: 144px;
+}
+
+.store__image-mobile {
+  width: 39%;
 }
