@@ -448,7 +448,6 @@ img {
 }
 
 .text-menu {
-  width: 441px;
   margin-top: 173px;
   margin-bottom: 70px;
   margin-left: auto;
@@ -456,7 +455,6 @@ img {
 }
 
 .text-title {
-  width: 441px;
   color: #4a4a56;
   text-align: center;
   font-family: "Inter";
@@ -470,7 +468,6 @@ img {
 }
 
 .text {
-  width: 441px;
   margin-top: 10px;
   color: #0a093d;
   text-align: center;
@@ -563,5 +560,107 @@ img {
   font-family: "Inter";
   font-size: 16px;
   font-style: normal;
+  font-weight: 400;
+}
+
+.team-title {
+  color: #217bf4;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.team-text {
+  margin-top: 10px;
+  color: #0a093d;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.team-description {
+  margin-top: 18px;
+  color: #656464;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button__team {
+  margin-top: 38px;
+  margin-bottom: 44px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 474px;
+  height: 72px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 14px;
+  background-color: #f2f7fe;
+}
+
+.button__team-detail {
+  width: 150px;
+  height: 56px;
+  text-align: center;
+  line-height: 56px;
+  color: #2f2c4a;
+  font-family: "Inter";
+  font-weight: 500;
+  transition: 300ms ease all;
+}
+
+.button__team-detail:hover {
+  border-radius: 14px;
+  background: #217bf4;
+  box-shadow: 0px 7px 22px -6px rgba(0, 72, 168, 0.34);
+  color: #fff;
+}
+
+.button__card-container {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button__card {
+  width: 270px;
+  margin-bottom: 130px;
+  padding-top: 30px;
+  padding-left: 52px;
+  padding-right: 52px;
+  padding-bottom: 30px;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0px 34px 68px 0px rgba(116, 115, 128, 0.1);
+}
+
+.button__image {
+  width: 166px;
+}
+
+.button__title {
+  width: 171px;
+  margin-top: 34px;
+  color: #2f2c4a;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.button__profile {
+  margin-top: 14px;
+  color: #656464;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
   font-weight: 400;
 }
