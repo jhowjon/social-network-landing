@@ -727,3 +727,103 @@ img {
 .store__image-mobile {
   width: 39%;
 }
+
+.blog__text {
+  color: #217bf4;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.blog__title {
+  margin-top: 10px;
+  color: #0a093d;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.blog__container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog__card {
+  width: 340px;
+}
+
+.background__image-blog {
+  margin-top: 75px;
+  width: 340px;
+  height: 330px;
+  background-image: url("./images/notebbook.jpeg");
+  background-size: cover;
+  border-radius: 14px;
+}
+
+.background__image-blog2 {
+  margin-top: 75px;
+  width: 340px;
+  height: 330px;
+  background-image: url("./images/family.jpeg");
+  background-size: cover;
+  border-radius: 14px;
+}
+
+.background__image-blog3 {
+  margin-top: 75px;
+  width: 340px;
+  height: 330px;
+  background-image: url("./images/colors.jpeg");
+  background-size: cover;
+  border-radius: 14px;
+}
+
+.blog__card-description {
+  display: flex;
+  gap: 14px;
+  margin-top: 24px;
+  color: #2f2c4a;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.blog__card-description::before {
+  position: relative;
+  top: 10px;
+  content: "";
+  display: block;
+  width: 39px;
+  height: 2px;
+  background-color: #ffaf2e;
+}
+
+.blog__link-container {
+  margin-top: 24px;
+  margin-bottom: 130px;
+  width: 340px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.blog__link {
+  color: #656464;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.blog__link:hover {
+  color: #217bf4;
+}
+
+.blog__link-image {
+  width: 10px;
+}
