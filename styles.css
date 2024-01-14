@@ -827,3 +827,126 @@ img {
 .blog__link-image {
   width: 10px;
 }
+
+.footer {
+  background-color: #2b2b39;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 78px;
+  padding-bottom: 85px;
+}
+
+.footer__menu {
+  width: 57%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__menu-title {
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__menu-list-detail {
+  color: #e7e7e7;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer__group {
+  width: 29%;
+}
+
+.footer__group-title {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer__group-description {
+  margin-top: 18px;
+  margin-bottom: 32px;
+  color: #e7e7e7;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer__button {
+  display: flex;
+  justify-content: space-between;
+  width: 339px;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+}
+
+.footer__button-text {
+  color: #717179;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.footer__subscribe {
+  display: block;
+  width: 126px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 12px;
+  background: #fff;
+  color: #2b2b39;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer__end-page {
+  padding-top: 41px;
+  padding-bottom: 41px;
+  background-color: #20202d;
+}
+
+.footer__end-conatainer {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__end-text {
+  color: #f6f6f6;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer__image-logo {
+  width: 143px;
+}
+
+.footer__image-social {
+  width: 163px;
+}
