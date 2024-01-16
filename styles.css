@@ -27,7 +27,8 @@ img {
 }
 
 .header__container {
-  width: 1169px;
+  width: 90%;
+  max-width: 1169px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -100,7 +101,8 @@ img {
 }
 
 .hero__content {
-  width: 1160px;
+  width: 90%;
+  max-width: 1160px;
   padding-top: 162px;
   padding-bottom: 62px;
   margin-left: auto;
@@ -137,7 +139,6 @@ img {
 }
 
 .hero__text-description {
-  width: 491px;
   margin-top: 18px;
   color: #656464;
   font-family: "Inter";
@@ -188,7 +189,8 @@ img {
 }
 
 .about {
-  width: 1169px;
+  width: 90%;
+  max-width: 1169px;
   margin-top: 130px;
   margin-left: auto;
   margin-right: auto;
@@ -949,4 +951,76 @@ img {
 
 .footer__image-social {
   width: 163px;
+}
+
+.achievement__container,
+.text-menu,
+.features,
+.team,
+.shape,
+.blog,
+.footer,
+.footer__end-page {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .header__container {
+    flex-direction: column;
+  }
+
+  .header__logo-menu {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .hero__content {
+    margin-top: 200px;
+    flex-direction: column;
+  }
+
+  .hero__text {
+    width: 100%;
+  }
+
+  .hero__text-title {
+    margin-top: 30px;
+    font-size: 40px;
+  }
+
+  .hero__text-description {
+    margin-top: 30px;
+  }
+
+  .hero__links {
+    width: 100%;
+    gap: 10px;
+  }
+  .hero__image {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .about {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+
+  .about__text {
+    width: 100%;
+  }
+
+  .about__title {
+    margin-top: 30px;
+    font-size: 35px;
+  }
+  .about__title-description {
+    width: 100%;
+  }
+  .about__banner {
+    width: 100%;
+  }
 }
