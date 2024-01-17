@@ -953,17 +953,6 @@ img {
   width: 163px;
 }
 
-.achievement__container,
-.text-menu,
-.features,
-.team,
-.shape,
-.blog,
-.footer,
-.footer__end-page {
-  display: none;
-}
-
 @media only screen and (max-width: 900px) {
   .header__container {
     flex-direction: column;
@@ -1022,5 +1011,16 @@ img {
   }
   .about__banner {
     width: 100%;
+  }
+
+  .achievement__container,
+  .text-menu,
+  .features,
+  .team,
+  .shape,
+  .blog,
+  .footer,
+  .footer__end-page {
+    display: none;
   }
 }
