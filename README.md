@@ -1,12 +1,12 @@
-#SOCIAL MEDIA
+# Netbook - Social Network Landing Page
 
 ## 🏆 Objetivo
 
-<p>Elaboração de uma rede social fictícia.
+<p>Elaboração de uma landing page utilizando HTML, CSS e conceitos de responsividade.</p>
 
 ## 🧑🏻‍💻 Live Preview
 
-https://jhowjon.github.io/landing-social-media/
+https://jhowjon.github.io/social-network-landing/
 
 ## 👨🏻‍🎨 Design
 
